@@ -377,3 +377,71 @@ body {
 #sixth-card {
   margin-bottom: 142px !important;
 }
+
+.contact-page {
+}
+.contact-page h1 {
+  margin: 26px 0;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  color: #272142;
+}
+
+.contact-page_content {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+.contact-page_content_photo {
+  margin-right: 20px;
+}
+.contact-page_content_photo img {
+  width: 460px;
+}
+.contact-page_content_text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-page_content_text_one-of-three {
+}
+.contact-page_content_text_one-of-three h2 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #662eed;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.contact-page_content_text_one-of-three p {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #272142;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.contact-page_content_text_one-of-three i {
+  margin-right: 25px;
+}
+.contact-page_content_text_one-of-three a {
+  text-decoration: none;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #272142;
+  margin: 0;
+  transition: all 200ms ease-in-out;
+}
+.contact-page_content_text_one-of-three a:hover {
+  color: #662eed;
+}
