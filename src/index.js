@@ -4,7 +4,7 @@ let num = ["first", "second", "third", "forth", "fifth", "sixth"];
 for (let i = 1; i <= 6; i++) {
   allRecipeHTML =
     allRecipeHTML +
-    `<div class="recipe-page_content_card">
+    `<div class="recipe-page_content_card" id = "${num[i - 1]}-card">
           <img src="/photo/dish${i}.png" alt="dish${i}" id = "${num[i - 1]}" />
           <h2>Wet Vegetable Spring Rolls</h2>
           <div class="recipe-page_content_card_container">
