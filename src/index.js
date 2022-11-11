@@ -1,41 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/style.css" />
-    <script
-      src="https://kit.fontawesome.com/00a33a78fd.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Recipe Collection</title>
-  </head>
-  <body>
-    <div class="recipe-page">
-      <div class="menu wrap">
-        <a href="/" class="menu_logo">
-          <img src="/photo/logo.svg" alt="logo" />
-        </a>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-          <li class="active">
-            <a href="/recipe.html">Recipe</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <h1>Recipe Collection</h1>
-      <div class="recipe-page_content" id="all-recipe">
-        <!--<div class="recipe-page_content_card">
-          <img src="/photo/dish1.png" alt="dish1" width="760px" />
+let allRecipe = document.querySelector("#all-recipe");
+let allRecipeHTML = "";
+let num = ["first", "second", "third", "forth", "fifth", "sixth"];
+for (let i = 1; i <= 6; i++) {
+  allRecipeHTML =
+    allRecipeHTML +
+    `<div class="recipe-page_content_card">
+          <img src="/photo/dish${i}.png" alt="dish${i}" id = "${num[i - 1]}" />
           <h2>Wet Vegetable Spring Rolls</h2>
           <div class="recipe-page_content_card_container">
             <div class="recipe-page_content_card_ingredient">
@@ -72,9 +42,6 @@
               </div>
             </div>
           </div>
-        </div>-->
-      </div>
-    </div>
-    <script src="/src/index.js"></script>
-  </body>
-</html>
+        </div>`;
+}
+allRecipe.innerHTML = allRecipeHTML;
