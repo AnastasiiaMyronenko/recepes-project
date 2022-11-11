@@ -270,3 +270,107 @@ body {
   line-height: 30px;
   color: #272142;
 }
+
+.recipe-page {
+}
+.recipe-page h1 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  color: #272142;
+  margin: 0;
+}
+.recipe-page_content {
+  width: 760px;
+  margin: 0 auto;
+  margin-top: 126px;
+}
+.recipe-page_content_card {
+  margin-bottom: 60px;
+}
+.recipe-page_content_card img {
+  width: 760px;
+}
+.recipe-page_content_card h2 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #272142;
+  margin: 0;
+  margin-top: 42px;
+  margin-bottom: 32px;
+}
+.dashed-border {
+  border-bottom: 1px dashed #67d5d2;
+}
+.recipe-page_content_card_container {
+  display: flex;
+}
+.recipe-page_content_card_ingredient {
+  width: 100%;
+}
+.recipe-page_content_card_ingredient h3 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #272142;
+  margin: 0;
+  padding-bottom: 25px;
+}
+.recipe-page_content_card_ingredient ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 28px;
+  padding-right: 18px;
+}
+.recipe-page_content_card_ingredient li {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #272142;
+  padding: 10px 0;
+}
+.recipe-page_content_card_method {
+  width: 100%;
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recipe-page_content_card_method h3 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #272142;
+  margin: 0;
+  padding-bottom: 25px;
+  padding-left: 18px;
+}
+
+.recipe-page_content_card_method_steps {
+  padding-left: 19px;
+}
+.recipe-page_content_card_method_steps h4 {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f65282;
+  margin: 0;
+}
+.recipe-page_content_card_method_steps p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #272142;
+  margin: 0;
+}
